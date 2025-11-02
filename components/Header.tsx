@@ -5,7 +5,7 @@ import Link from "next/link";
 function Header() {
   return (
     <header className="py-3">
-      <ul className="type-list-none flex flex-row gap-10 items-center justify-center text-xl">
+      <ul className="type-list-none flex flex-row gap-10 items-center justify-center text-3xl">
         <li>
           <Button variant="link" size={"lg"} asChild>
             <Link href={"/"}>Home</Link>
